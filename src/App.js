@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from './assets/images/logo.svg';
+import './assets/css/App.css';
+//importar componenetes
+import MiComponente from './components/MiComponente';
+import Peliculas from './components/Peliculas';
 
 function HolaMundo(nombre,edad){
   var presentacion = <div>
@@ -34,6 +36,14 @@ function App() {
           Learn React
         </a>
       </header>
+
+
+      <section className='componentes'>
+          <MiComponente></MiComponente>
+          <Peliculas></Peliculas>
+      </section>
+
+
     </div>
   );
 }
