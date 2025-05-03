@@ -371,6 +371,12 @@ textarea{
      line-height: 43px;
   }
 
+  #menu li a.active {
+    border-bottom: 2px solid #3cb2d3 !important;
+    color: inherit; /* Para asegurarte de que el color no se sobreescriba */
+    z-index: 10;
+}
+
   #content{
       float:none;
       width: 100%;
@@ -429,4 +435,5 @@ textarea{
   #slider.slider-small h1{
      padding-top: 35px;
   }
+
 }
