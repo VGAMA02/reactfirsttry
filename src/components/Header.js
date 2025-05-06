@@ -24,10 +24,10 @@ class Header extends Component {
                                 <NavLink to="/blog" className={({ isActive }) => isActive ? "active" : undefined}>Blog</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/segunda-ruta" className={({ isActive }) => isActive ? "active" : undefined}>Formulario</NavLink>
+                                <NavLink to="/formulario" className={({ isActive }) => isActive ? "active" : undefined}>Formulario</NavLink>
                             </li>
                             <li>
-                                <NavLink to="/pagina-1" className={({ isActive }) => isActive ? "active" : undefined}>Pagina 1</NavLink>
+                                <NavLink to="/peliculas" className={({ isActive }) => isActive ? "active" : undefined}>Peiculas</NavLink>
                             </li>
                             <li>
                                 <NavLink to="/pagina-2" className={({ isActive }) => isActive ? "active" : undefined}>Pagina 2</NavLink>

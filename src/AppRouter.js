@@ -8,7 +8,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from "./components/Home";
 import Blog from "./components/Blog";
-
+import Peliculas from "./components/Peliculas";
+import Formulario from "./components/Formulario";
 
 
 class Router extends Component {
@@ -27,6 +28,11 @@ class Router extends Component {
                     <Route path="/" element={<Home />} />
                     <Route path="/home" element={<Home />} />
                     <Route path="/blog" element={<Blog />} />
+                    <Route path="/formulario" element={<Formulario />} />
+                    <Route path="/peliculas" element={<Peliculas />} />
+
+
+
                     <Route exact path="/segunda-ruta" element={<MiComponente />} />
                     <Route path="/hola" element={<h1>HOLA</h1>} />
 
